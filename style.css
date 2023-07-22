@@ -167,6 +167,10 @@ section {
   height: 80vh;
 }
 
+.profile-pic {
+  border-radius: 5rem;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -185,6 +189,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .section__text__p2 {
@@ -217,6 +222,10 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+.parent {
+  position: relative;
 }
 
 .btn {
@@ -266,7 +275,8 @@ section {
 
 #about {
   position: relative;
-  margin-top: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;;
 }
 
 .about-containers {
@@ -296,7 +306,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -316,7 +326,7 @@ section {
 icon chuột lại xuất hiện mà trc đấy thì ko?*/
 #experience {
   position: relative;
-  margin-top: 10rem;  /* tự thêm */
+  margin-top: 7rem; 
 }
 
 .experience-sub-title {
@@ -366,7 +376,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width:90%;
-  height: 90%;
+  height: 300px;
 }
 
 .project-title {
@@ -374,9 +384,17 @@ article .icon {
   color: black;
 }
 
+.project-details {
+  font-size: 1rem;
+}
+
 .project-btn {
   color: black;
   border-color: rgb(163,163,163);
+}
+
+.project-content {
+  margin-bottom: 40px;
 }
 
 /* CONTACT */
@@ -386,6 +404,7 @@ article .icon {
   justify-content: center;
   flex-direction:column;
   height: 70vh;
+  margin-top: 12rem;
 }
 
 .contact-info-upper-container {
@@ -417,6 +436,34 @@ article .icon {
 
 .email-icon {
   height: 3.5rem;
+}
+
+/* EDUCATION */
+#education {
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  position: relative;
+  height: 1200px;
+}
+
+.education-details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: left;
+  margin: 2rem;
+}
+
+.education-content{
+  text-align: center;
+}
+
+.calender-icon {
+  height: 1.5rem;
 }
 
 /* FOOTER SECTION */

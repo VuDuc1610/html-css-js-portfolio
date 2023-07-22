@@ -9,10 +9,11 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Duc Vu lol</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -21,7 +22,7 @@
     </nav>
 
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Duc Vu</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -31,6 +32,7 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -39,16 +41,20 @@
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe" />
+        <img
+          src="./assets/REAL-prof-pic.jpg"
+          alt="Duc Vu"
+          class="profile-pic"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Duc Vu</h1>
+        <p class="section__text__p2">A Fresher Software Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('https://github.com/VuDuc1610')"
           >
             Download CV
           </button>
@@ -74,7 +80,7 @@
     </section>
 
     <section id="about">
-      <p class="section__text__p1">Get to know More</p>
+      <p class="section__text__p1">Get to know more</p>
       <h1 class="title">About Me!</h1>
 
       <div class="section-container">
@@ -90,33 +96,123 @@
           <div class="about-containers">
             <div class="details-container">
               <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Current</h3>
+              <p>Computer Science Fresher Aspiring Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
                 src="./assets/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
-            </div>
-
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree <br />M.Sc Masters Degree</p>
+              <p>Data Structure & Algorithms <br />Frontend Development</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              I have to say something very long so that the boxes above can be
-              extended so I'll paste something taylor swift music lyrics here
-              Fever dream high in the quiet of the night You know that I caught
-              it Bad, bad boy Shiny toy with a price You know that I bought it
-              Killing me slow, out the window I'm always waiting for you to be
-              waiting below Devils roll the dice, angels roll their eyes What
+              I'm a freshman at the University of Rochester majoring in Computer
+              Science. My interests lie in Software Engineering, particularly
+              Front-End Development. I enjoy the problem-solving and
+              meticulousness required in creating websites. I look forward to
+              exploring different aspects of computer science and making a
+              positive impact in the tech world.
             </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+      />
+    </section>
+
+    <section id="education">
+      <p class="section__text__p1">The Journey of My</p>
+      <h1 class="title">Education</h1>
+
+      <div class="education-details-container">
+        <h2>
+          <img
+            src="./assets/calender.png"
+            alt="Experience icon"
+            class="icon calender-icon"
+          />
+          2015-2019
+        </h2>
+        <div>
+          <div class="education-content">
+            <img src="./assets/school.png" alt="Experience icon" class="icon" />
+            <div>
+              <p class="section__text__p1">Hanoi Star Secondary School</p>
+              <br />
+              <li>Interested in <strong>Science</strong>: Math, Physics</li>
+              <li>
+                <strong>Gold medal</strong> in Physics from Vietnam
+                Internet-based Olympiad (VIOlympic) - National Round
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education-details-container">
+        <h2>
+          <img
+            src="./assets/calender.png"
+            alt="Experience icon"
+            class="icon calender-icon"
+          />
+          2019-2022
+        </h2>
+        <div>
+          <div class="education-content">
+            <img src="./assets/school.png" alt="Experience icon" class="icon" />
+            <div>
+              <p class="section__text__p1">
+                HUS High School for Gifted Students
+              </p>
+              <br />
+              <li><strong>Major</strong>: Physics</li>
+              <li><strong>SAT</strong>: 1520</li>
+              <li>
+                <strong>SAT Subject Test</strong>: 800 (Math, Physics,
+                Chemistry)
+              </li>
+              <li>
+                <strong>AP</strong>: 5 (Calculus BC) &nbsp; 4 (Computer Science,
+                Physics)
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education-details-container">
+        <h2>
+          <img
+            src="./assets/calender.png"
+            alt="Experience icon"
+            class="icon calender-icon"
+          />
+          2022-now
+        </h2>
+        <div>
+          <div class="education-content">
+            <img src="./assets/school.png" alt="Experience icon" class="icon" />
+            <div>
+              <p class="section__text__p1">University of Rochester</p>
+              <br />
+              <li><strong>Major</strong>: BS in Computer Science</li>
+              <li>
+                <strong>Dean's Scholarship</strong> for Outstanding Academic
+                Achievement
+              </li>
+            </div>
           </div>
         </div>
       </div>
@@ -135,7 +231,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Skills</h2>
             <div class="article-container">
               <article>
                 <img
@@ -206,9 +302,7 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">
-              Something different but rn I have no idea
-            </h2>
+            <h2 class="experience-sub-title">Coursework</h2>
             <div class="article-container">
               <article>
                 <img
@@ -217,8 +311,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>Intro to Programming</h3>
                 </div>
               </article>
               <article>
@@ -228,30 +321,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C</h3>
-                  <p>Intermediate</p>
+                  <h3>Data Structure & Algorithms</h3>
                 </div>
               </article>
             </div>
@@ -275,48 +345,42 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/2048.png"
                 alt="project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Project 1</h2>
+            <div class="section__text__p2 project-details project-content">
+              Recreating the game 2048
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='http://github.com/'"
+                onclick="location.href='https://github.com/VuDuc1610/game-2048'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='http://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/budget-cal.png"
                 alt="project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Project 2</h2>
+            <div class="section__text__p2 project-details">
+             Calculator computes net profit from income and expenses.
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='http://github.com/'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='http://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -326,7 +390,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
       />
     </section>
 
@@ -341,7 +405,9 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p>
+            <a href="mailto:examplemail@gmail.com">dvu2@u.rochester.edu</a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -359,13 +425,14 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; Siu. All Rights Reserved</p>
+      <p>Copyright &#169; Duc Vu. All Rights Reserved</p>
     </footer>
     <script src="script.js"></script>
   </body>
