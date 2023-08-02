@@ -1,6 +1,7 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/bulb.css');
 
 * {
   margin: 0;
@@ -222,6 +223,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-top: 80px
 }
 
 .parent {
@@ -313,6 +315,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  position: relative;
 }
 
 .section-container {
@@ -375,12 +378,13 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width:90%;
-  height: 300px;
+  max-width:100px;
+  max-height: 300px;
+  height: auto;
 }
 
 .project-title {
-  margin:1rem;
+  margin:1.2rem;
   color: black;
 }
 
@@ -391,6 +395,14 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163,163,163);
+  position: absolute;
+  bottom: 10%; 
+  left: 50%; 
+  transform: translate(-50%, 10px);
+}
+
+.project-btn:hover {
+  transform: translate(-50%, 10px) scale(1.2);
 }
 
 .project-content {
@@ -404,7 +416,7 @@ article .icon {
   justify-content: center;
   flex-direction:column;
   height: 70vh;
-  margin-top: 12rem;
+  margin-top: 20rem;
 }
 
 .contact-info-upper-container {
@@ -475,4 +487,49 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+
+.gg-bulb {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-bottom-color: transparent;
+  border-radius: 100px
+}
+.gg-bulb::after,
+.gg-bulb::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute
+}
+.gg-bulb::before {
+  border-top: 0;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  top: 10px;
+  border-bottom: 2px solid transparent;
+  box-shadow:
+      0 5px 0 -2px,
+      inset 2px 0 0 0,
+      inset -2px 0 0 0,
+      inset 0 -4px 0 -2px;
+  width: 8px;
+  height: 8px;
+  left: 2px
+}
+.gg-bulb::after {
+  width: 12px;
+  height: 2px;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-radius: 2px;
+  bottom: 0;
+  left: 0
 }
