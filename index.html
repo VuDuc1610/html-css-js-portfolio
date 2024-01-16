@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Duc Vu lol</div>
+      <div class="logo">Duc Vu</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -48,17 +48,11 @@
         />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
+        <p class="section__text__p1">Hello! I'm</p>
         <h1 class="title">Duc Vu</h1>
         <p class="section__text__p2">A Fresher Software Developer</p>
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('https://github.com/VuDuc1610')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
@@ -115,12 +109,8 @@
           </div>
           <div class="text-container">
             <p>
-              I'm a freshman at the University of Rochester majoring in Computer
-              Science. My interests lie in Software Engineering, particularly
-              Front-End Development. I enjoy the problem-solving and
-              meticulousness required in creating websites. I look forward to
-              exploring different aspects of computer science and making a
-              positive impact in the tech world.
+              I'm a sophomore at the University of Rochester majoring in Computer
+              Science. My interests lie in Software Engineering. I enjoy the problem-solving and meticulousness required in creating websites. I look forward to exploring different aspects of computer science and making a positive impact in the tech world.
             </p>
           </div>
         </div>
@@ -240,7 +230,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>HTML/CSS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -251,7 +241,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h3>JavaScript</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -262,7 +252,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
+                  <h3>React.js</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -273,7 +263,18 @@
                   class="icon"
                 />
                 <div>
-                  <h3>C</h3>
+                  <h3>Node.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express.js</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -288,17 +289,6 @@
                   <p>Experienced</p>
                 </div>
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Angular</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
             </div>
           </div>
           <div class="details-container">
@@ -311,7 +301,38 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Intro to Programming</h3>
+                  <h3>Web Programming</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android Development</h3>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Computation and
+                    Formal Systems</h3>
+                </div>
+              </article> -->
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Intro to Machine Learning</h3>
                 </div>
               </article>
               <article>
@@ -336,7 +357,7 @@
       />
     </section>
 
-    <section id="projects">
+    <section id="projects" class="manual-project">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
 
@@ -344,15 +365,65 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/2048.png"
-                alt="project 1"
-                class="project-img"
-              />
+              <i class="gg-bulb"></i>
             </div>
-            <h2 class="experience-sub-title project-title">Project 1</h2>
+            <h2 class="experience-sub-title project-title">AI picture generator</h2>
             <div class="section__text__p2 project-details project-content">
-              Recreating the game 2048
+              Created an interactive website application that utilizes the DALL·E-2 OpenAI API to generate 1000+ pictures based on
+              user input prompts
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/VuDuc1610/AI-pic-project'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <i class="gg-bulb"></i>
+            </div>
+            <h2 class="experience-sub-title project-title">Roc Map</h2>
+            <div class="section__text__p2 project-details project-content">
+              Developed an advanced Google Maps simulation incorporating Dijkstra’s algorithm. Considering weather
+              conditions to suggest the shortest path while accounting for tunnels and interior building routes
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/goodudetheboy/RocMap'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <i class="gg-bulb"></i>
+            </div>
+            <h2 class="experience-sub-title project-title">Gym Exercises Dictionary</h2>
+            <div class="section__text__p2 project-details project-content">
+              A responsive web application allowing users to explore gym exercises
+              customized for specific muscle groups with video tutorials.
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/VuDuc1610/gym-exercises-project'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <i class="gg-bulb"></i>
+            </div>
+            <h2 class="experience-sub-title project-title">Game 2048</h2>
+            <div class="section__text__p2 project-details project-content">
+              Designed and implemented a Java version of the popular puzzle game 2048.
             </div>
             <div class="btn-container">
               <button
@@ -365,20 +436,51 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/budget-cal.png"
-                alt="project 2"
-                class="project-img"
-              />
+              <i class="gg-bulb"></i>
             </div>
-            <h2 class="experience-sub-title project-title">Project 2</h2>
+            <h2 class="experience-sub-title project-title">Street Mapping</h2>
+            <div class="section__text__p2 project-details">
+              Finding of the shortest paths and provide directions between any
+              two arbitrary intersections.
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/VuDuc1610/street-mapping'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <i class="gg-bulb"></i>
+            </div>
+            <h2 class="experience-sub-title project-title"> File Encryption and Decryption </h2>
+            <div class="section__text__p2 project-details">
+              File encryption and decryption algorithm by leveraging the efficiency of Huffman coding.
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/VuDuc1610/huffman-coding'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <i class="gg-bulb"></i>
+            </div>
+            <h2 class="experience-sub-title project-title">Budget Calculator</h2>
             <div class="section__text__p2 project-details">
              Calculator computes net profit from income and expenses.
             </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='http://github.com/'"
+                onclick="location.href='https://github.com/VuDuc1610/budget-calculator'"
               >
                 Github
               </button>
@@ -415,7 +517,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/duc-vu-21766a226">LinkedIn</a></p>
         </div>
       </div>
     </section>
