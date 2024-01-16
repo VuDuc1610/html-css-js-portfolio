@@ -325,8 +325,6 @@ section {
 
 /* EXPERIENCE SECTION */
 
-/* taoj sao khi set position relative thì cái con 
-icon chuột lại xuất hiện mà trc đấy thì ko?*/
 #experience {
   position: relative;
   margin-top: 7rem; 
